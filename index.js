@@ -12,9 +12,9 @@ const findKeyByValue = require('./findKeyByValue');
 const eqObjects = require('./eqObjects');
 const assertObjectsEqual = require('./assertObjectsEqual');
 const map = require('./map');
+const takeUntil = require('./takeUntil');
 
 // TODO
-// const takeUntil = require('./takeUntil');
 // const findKey = require('./findKey');
 
 
@@ -33,8 +33,8 @@ module.exports = {
   eqObjects,
   assertObjectsEqual,
   map,
+  takeUntil,
 
   // TODO
-  // takeUntil,
   // findKey
 };
