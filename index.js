@@ -11,9 +11,9 @@ const letterPositions = require('./letterPositions');
 const findKeyByValue = require('./findKeyByValue');
 const eqObjects = require('./eqObjects');
 const assertObjectsEqual = require('./assertObjectsEqual');
+const map = require('./map');
 
 // TODO
-// const map = require('./map');
 // const takeUntil = require('./takeUntil');
 // const findKey = require('./findKey');
 
@@ -32,9 +32,9 @@ module.exports = {
   findKeyByValue,
   eqObjects,
   assertObjectsEqual,
+  map,
 
   // TODO
-  // map,
   // takeUntil,
   // findKey
 };
