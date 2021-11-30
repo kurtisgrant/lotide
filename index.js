@@ -9,9 +9,9 @@ const countOnly = require('./countOnly');
 const countLetters = require('./countLetters');
 const letterPositions = require('./letterPositions');
 const findKeyByValue = require('./findKeyByValue');
+const eqObjects = require('./eqObjects');
 
 // TODO
-// const eqObjects = require('./eqObjects');
 // const assertObjectsEqual = require('./assertObjectsEqual');
 // const map = require('./map');
 // const takeUntil = require('./takeUntil');
@@ -30,9 +30,9 @@ module.exports = {
   countLetters,
   letterPositions,
   findKeyByValue,
+  eqObjects,
 
   // TODO
-  // eqObjects,
   // assertObjectsEqual,
   // map,
   // takeUntil,
