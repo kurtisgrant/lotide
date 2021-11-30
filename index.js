@@ -7,9 +7,9 @@ const without = require('./without');
 const middle = require('./middle');
 const countOnly = require('./countOnly');
 const countLetters = require('./countLetters');
+const letterPositions = require('./letterPositions');
 
 // TODO
-// const letterPositions = require('./letterPositions');
 // const findKeyByValue = require('./findKeyByValue');
 // const eqObjects = require('./eqObjects');
 // const assertObjectsEqual = require('./assertObjectsEqual');
@@ -28,9 +28,9 @@ module.exports = {
   middle,
   countOnly,
   countLetters,
+  letterPositions,
 
   // TODO
-  // letterPositions,
   // findKeyByValue,
   // eqObjects,
   // assertObjectsEqual,
